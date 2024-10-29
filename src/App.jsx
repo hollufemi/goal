@@ -10,9 +10,10 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 const App = () => {
   return (  
     <div>
-      <Home/>
+      
       <BrowserRouter>
       <Header/>
+      <Home/>
       <Routes>
         <Route path="/" element={<Personal/>}/>
         <Route path="/business" element={<Business/>}/>
