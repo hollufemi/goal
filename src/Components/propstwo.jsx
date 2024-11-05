@@ -1,6 +1,5 @@
-
-import "./proptwo.css";
-const propstwo = ({Image,Tagname,Comment,Link}) => {
+import "./Propstwo.css"
+const Propstwo = ({Image,Tagname,Comment,Link}) => {
     return ( 
         <div className="">
         <img src={Image} alt="" />
@@ -11,4 +10,4 @@ const propstwo = ({Image,Tagname,Comment,Link}) => {
      );
 };
 
-export default propstwo;
+export default Propstwo;

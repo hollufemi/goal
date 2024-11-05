@@ -1,7 +1,7 @@
-import "./props.css";
-const props = ({Comment,Image,Name}) => {
+import "./Props.css";
+const Props = ({Comment,Image,Name}) => {
     return ( 
-        <div className="">
+        <div className="bell">
         <p>{Comment}</p> 
         <img src={Image} alt="" />
         <h6>{Name}</h6>
@@ -11,4 +11,4 @@ const props = ({Comment,Image,Name}) => {
      );
 };
 
-export default props;
+export default Props;

@@ -1,129 +1,81 @@
-import {MdArrowDropDown, MdDisplaySettings, MdNoEncryptionGmailerrorred, MdOutlineFullscreenExit} from 'react-icons/md';
-import styled from 'styled-components';
-import {Link} from 'react-router-dom' 
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+import Image from "../assets/kuda-small.jpg";
+import Nigeria from "../assets/nigeria.jpg";
 
 const Header = () => {
-    return(
-        <Container>
-            <LogoNav>
-                <Logo>
-                    <img src="/kudaIcon.png" alt="" />
-                </Logo>
-                <Navigations>
-                    <Link to="">
-                    <nav>
-                        <span>Personal</span>
-                        <MdArrowDropDown size={20} />
-                    </nav>
-                    </Link>
-                    <Link to="">
-                    <nav>
-                        <span>Business</span>
-                        <MdArrowDropDown size={20} />
-                    </nav>
-                    </Link>
-                    <Link to="">
-                    <nav>
-                        <span>Company</span>
-                        <MdArrowDropDown size={20} />
-                    </nav>
-                    </Link>
-                    <nav>
-                        <span>Help</span>
-                        <MdArrowDropDown size={20} />
-                    </nav>
-                </Navigations>
-            </LogoNav>
+    return ( 
+        <Headers>
+
+            <Link to="/"><img src={Image} alt="" />
+            </Link>
+            <Link to="/">
+            <p>Home</p>
+            </Link>
+            
+            <Link to="/Business">
+                <p>Business</p>
+            </Link>
+            <Link to="/Personal">
+                <p>Personal</p>
+            </Link>
+            <Link to="/Help">
+                <p>Help</p>
+            </Link>
+
             <Buttons>
                 <SignBtn>Sign In</SignBtn>
                 <JoinBtn>Join Kuda</JoinBtn>
                 <ConBtn>
-                    <img src="/kudaIcon.png" alt="nig" />
+                    <img src={Nigeria} alt="nig" />
                 </ConBtn>
             </Buttons>
-        </Container>
-    )
-}
 
-export default Header
+             {/* <p>Sign In</p>
+             <button>Join Kuda</button>
 
-const Container = styled.div`
-height: 70px;
-/* background-color: aqua; */
-display: flex;
-justify-content: space-between;
-align-items: center;
-`
-const LogoNav = styled.div`
-display: flex;
-align-items: center;
-`
-const Logo = styled.div`
-margin: 0px 80px 0px 50px;
-img{
-    width: 40px;
+            <img src={Nigeria} alt="flag"/> */}
+        </Headers>
+     );
 }
-`
-const Navigations = styled.div`
-display: flex;
-nav{
+ 
+export default Header;
+
+const Headers = styled.div`
+    background-color: white;
     display: flex;
-    align-items: center;
-    color: #5e025e;
-    margin: 0px 20px;
-    span{
-        margin-right: 3px;
-        font-size: 13px;
-        font-weight: 600;
-        
+    justify-content: space-around;
+    color: #40196D;
+
+    p{
+        text-decoration: none;
     }
-}
+
+    button{
+        background-color: #40196D;
+        color: white;
+
+    }
+
+    img{
+        width: 70px;
+        border-radius: 60%;
+    }
+
 `
 const Buttons = styled.div`
-display: flex;
-align-items: center;
-`
-const SignBtn = styled.button`
-background-color: transparent;
-border: none;
-outline: none;
-font-weight: 600;
-color: #5e025e;
-`
-const JoinBtn = styled.button`
-width: 150px;
-height: 45px;
-border-radius: 10px;
-outline: none;
-border: none;
-color: #fff;
-font-weight: 700;
-background-color: #5e025e;
-margin: 0px 25px;
-`
-const ConBtn = styled.button`
-background-color: #fc99fc;
-outline: none;
-border: none;
-height: 40px;
-width: 40px;
-border-radius: 50%;
-/* display: flex;
-justify-content: center;
-align-items: center; */
-margin-right: 50px;
-img{
-    width: 20px;
-}
+    display: flex;
+    justify-content: space-around;
 `
 
-// const SideNav = styled.div``
-//     display: none;
-//     font-size: 30px;
-//     margin-left:-30px;
-
-// @media (max-width: 800px){
-//     display: flex;
-//     align-items:center;
-//     cursor:pointer;
-// }
+const SignBtn = styled.div`
+    
+    
+`
+const JoinBtn = styled.div`
+    
+    
+`
+ const ConBtn = styled.div`
+    
+ `

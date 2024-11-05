@@ -1,0 +1,13 @@
+body{
+    /* display: flex; */
+}
+
+.bell{
+    border: 1px solid red;
+    width: 300px;
+    padding: 10px;
+
+    p{
+        width: 290px;
+    }
+} 

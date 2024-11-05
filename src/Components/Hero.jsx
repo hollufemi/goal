@@ -1,24 +1,25 @@
 import styled from "styled-components";
-import HeroImage from "../assets/kudaIcon.png"
+import HeroImage from "../assets/download6.svg";
 const Hero = () => {
     return ( 
         <Container>
-        <Wrapper>
-            <TextBox>
-               <h1>The money app for Africans.</h1>
-               <p>Make free transfers, enjoy cashless payment options and earn interest on your savings with Kuda.</p>
-               <Buttons>
-                <button>  <span>App store</span></button>
-                <button>  <span>Play store</span></button>
-               </Buttons>
-            </TextBox>
-            <ImageBox>
-                <img src={HeroImage} alt="Hero" />
-            </ImageBox>
+           <Wrapper>
+                <TextBox>
+                        <h1>The money app for Africans.</h1>
+                        <p>Make free transfers, enjoy cashless payment options and earn interest on your savings with Kuda.</p>
+                    <Buttons>
+                        <button>  <span>App store</span></button>
+                        <button>  <span>Play store</span></button>
+                    </Buttons>
+               </TextBox>
 
-        </Wrapper>
+               <ImageBox>
+                <img src={HeroImage} alt="d6" />
+               </ImageBox>
+
+           </Wrapper>
        
-    </Container>
+        </Container>
    );
 };
  
@@ -66,9 +67,14 @@ h1{
 `
 const ImageBox = styled.div`
 img{
+    width: 450px;
+
     @media (max-width: 800px) {
     width: 100%;
 }
 }
 `
-const Buttons = styled.div``
+const Buttons = styled.div`
+
+color: #40196D;
+`

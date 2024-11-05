@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-const Personal = () => {
+const Help = () => {
     return ( 
         <Section>
-            <h1>This is personal</h1>
+                <h1>This is Help</h1>
         </Section>
      );
 }
  
-export default Personal;
+export default Help;
 
 const Section = styled.div`
     

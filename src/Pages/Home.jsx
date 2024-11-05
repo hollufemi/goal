@@ -1,43 +1,39 @@
-import styled from "styled-components";
-import Header from "../Static/Header";
 import Hero from "../Components/Hero";
-import Herotwo from "../Components/herotwo";
-import Herothree from "../Components/herothree";
-import Herofour from "../Components/herofour";
-import Herofive from "../Components/herofive";
-import Herosix from "../Components/herosix";
-import Heroseven from "../Components/heroseven";
-import Heroeight from "../Components/heroeight";
-import Heronine from "../Components/heronine";
-import Heroten from "../Components/heroten";
-import Heroeleven from "../Components/heroeleven";
-import Herotwelve from "../Components/herotwelve";
-import Herothirteen from "../Components/herothirteen";
-import Herofourteen from "../Components/herofourteen";
+import Herotwo from "../Components/Herotwo";
+import Herothree from "../Components/Herothree";
+import Herofour from "../Components/Herofour";
+import Herofive from "../Components/Herofive";
+import Herosix from "../Components/Herosix";
+import Heroseven from "../Components/Heroseven";
+import Heroeight from "../Components/Heroeight";
+import Heronine from "../Components/Heronine";
+import Heroten from "../Components/Heroten";
+import Heroeleven from "../Components/Heroeleven";
+import Herotwelve from "../Components/Herotwelve";
+import Herothirteen from "../Components/Herothirteen";
 
 const Home = () => {
-    return (  
-        <Container>
-           {/* <Header/> */}
-           <Hero/>
-           <Herotwo/>
-           <Herothree/>
-           <Herofour/>
-           <Herofive/>
-           <Herosix/>
-           <Heroseven/>
-           <Heroeight/>
-           <Heronine/>
-           <Heroten/>
-           <Heroeleven/>
-           <Herotwelve/>
-           <Herothirteen/>
-           <Herofourteen/>
-        </Container>
-    );
-}
+    return ( 
+        <div>
+            <Hero/>
+            <Herotwo/>
+            <Herothree/>
+            <Herofour/>
+            <Herofive/>
+            <Herosix/>
+            <Heroseven/>
+            <Heroeight/>
+            <Heronine/>
+            <Heroten/>
+            <Heroeleven/>
+            <Herotwelve/>
+            <Herothirteen/>
+        </div>
+        
+     );
+};
  
 export default Home;
 
-const Container = styled.div``
-// const LogoNav =  styled.div``
+
+

@@ -1,13 +1,13 @@
 
-import "./propsthree.css";
-const propsthree = ({Image,Comment}) => {
+import "./Propsthree.css";
+const Propsthree = ({Image,Comment}) => {
     return ( 
-        <div className="firstcard">
-        <img src={Image} alt="" />
-        <h6>{Comment}</h6>
+               <div className="firstcard">
+                  
+                  <h6>{Comment}</h6>
         
-    </div>
-     );
+                </div>
+            );
 };
 
-export default propsthree;
+export default Propsthree;
