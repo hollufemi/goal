@@ -1,8 +1,8 @@
 
 import Business from "./Pages/Business.jsx"
 import Company from "./Pages/Companies.jsx"
-// import Home from "./Pages/Home.jsx"
-import Help from "./Components/Home/Help.jsx"
+import Home from "../../kudaMoney/src/Pages/Home.jsx"
+import Help from "./Components/Homepage/Help.jsx"
 import Personal from "./Pages/Personal.jsx"
 import Header from "./Static/Header.jsx"
 import Footer from "./Static/Footer.jsx"
@@ -24,7 +24,7 @@ const App = () => {
             
             </Routes>
 
-          {/* <Home/> */}
+          <Home/>
           <Footer/>
 
         </div>
