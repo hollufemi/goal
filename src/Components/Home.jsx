@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import Herotwo from "./Herotwo";
+// import Herotwo from "./Herotwo";
 import Herothree from "./Herothree";
 import Herofour from "./Herofour";
 import Herofive from "./Herofive";
@@ -16,7 +16,7 @@ const Home = () => {
     return ( 
         <div>
             <Hero/>
-            <Herotwo/>
+            {/* <Herotwo/> */}
             <Herothree/>
             <Herofour/>
             <Herofive/>
