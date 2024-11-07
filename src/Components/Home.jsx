@@ -28,10 +28,9 @@ const Home = () => {
             <Heroeleven/>
             <Herotwelve/>
             <Herothirteen/>
-        </div>
-        
-     );
-};
+        </div>       
+     )
+}
  
 export default Home;
 
