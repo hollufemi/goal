@@ -22,11 +22,14 @@ export default Herothirteen;
 const Container = styled.div`
     display: flex;
     background-color: #EFF1FF;
-
+    width: 1000px;
+    margin: auto;
+    
+    
 `
 
 const Leftdiv = styled.div`
-    
+    margin-left: 60px;
 
     h1{
         color: #40196D
@@ -35,6 +38,8 @@ const Leftdiv = styled.div`
     button{
         background-color: #40196D;
         color: white;
+        padding:10px;
+        border-radius: 6px;
     }
 `
 

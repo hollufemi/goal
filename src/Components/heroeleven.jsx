@@ -77,7 +77,18 @@ const Container = styled.div`
 
     table{
       
-      margin-top: 60px;
+      justify-content: space-between;
+      margin: auto;
+      min-width: 80%;
+      text-align: center;
+      
+      th{
+        color: #40196D;
+      }
+
+      td{
+        border: 1px solid black;
+      }
     }
 
 `

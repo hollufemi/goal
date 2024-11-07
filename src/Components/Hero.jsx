@@ -1,5 +1,10 @@
 import styled from "styled-components";
 import HeroImage from "../assets/download6.svg";
+// import { FaGooglePlay } from "react-icons/fa";
+import appstore from "../assets/appstores.png";
+import googleplay from "../assets/googleplay.png";
+import ndic from "../assets/ndic.png";
+import cbn from "../assets/cbn.png";
 const Hero = () => {
     return ( 
         <Container>
@@ -8,9 +13,11 @@ const Hero = () => {
                         <h1>The money app for Africans.</h1>
                         <p>Make free transfers, enjoy cashless payment options and earn interest on your savings with Kuda.</p>
                     <Buttons>
-                        <button>  <span>App store</span></button>
-                        <button>  <span>Play store</span></button>
+                        <button><img src={appstore} alt="k"/> </button>
+                        <button> <img src={googleplay} alt=""/></button>
                     </Buttons>
+                    <br/>
+                    <small>Fully Licensed by the CBN<img src={cbn} alt=""/> Deposits Insured By<img src={ndic} alt=""/> </small>
                </TextBox>
 
                <ImageBox>
@@ -64,6 +71,7 @@ h1{
     font-weight: 800;
     line-height: normal;
 }
+
 `
 const ImageBox = styled.div`
 img{
@@ -77,4 +85,6 @@ img{
 const Buttons = styled.div`
 
 color: #40196D;
+
+
 `

@@ -22,13 +22,12 @@ export default Herothree;
 
 const Container = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    padding: 30px;
+    margin: auto;
     max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 10px;
     min-height: calc(100vh - 70px);
-    align-items: center;
+    align-items: center
 
 
 `

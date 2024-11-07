@@ -27,7 +27,7 @@ const Container = styled.div`
     margin: auto;
     max-width: 1280px;
     min-height: calc(100vh - 70px);
-    align-items: center;
+    align-items: center
 
 
 `
