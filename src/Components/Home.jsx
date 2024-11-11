@@ -1,25 +1,26 @@
-import Hero from "./Hero";
-// import Herotwo from "./Herotwo";
-// import Herothree from "./Herothree";
-// import Herofour from "./Herofour";
-// import Herofive from "./Herofive";
-import Herosix from "./Herosix";
-import Heroseven from "./Heroseven";
-import Heroeight from "./Heroeight";
-import Heronine from "./Heronine";
-import Heroten from "./Heroten";
-import Heroeleven from "./Heroeleven";
-import Herotwelve from "./Herotwelve";
-import Herothirteen from "./Herothirteen";
+import Hero from "../Components/hero";
+import Herotwo from "../Components/herotwo";
+import Herothree from "../Components/herothree";
+import Herofour from "../Components/herofour";
+import Herofive from "../Components/herofive";
+import Herosix from "../Components/herosix";
+import Heroseven from "../Components/heroseven";
+import Heroeight from "../Components/heroeight";
+import Heronine from "../Components/heronine";
+
+import Heroten from "../Components/heroten";
+import Heroeleven from "../Components/heroeleven";
+import Herotwelve from "../Components/herotwelve";
+import Herothirteen from "../Components/herothirteen";
 
 const Home = () => {
     return ( 
         <div>
             <Hero/>
-            {/* <Herotwo/> */}
-            {/* <Herothree/>
+            <Herotwo/>
+            <Herothree/>
             <Herofour/>
-            <Herofive/> */}
+            <Herofive/> 
             <Herosix/>
             <Heroseven/>
             <Heroeight/>
