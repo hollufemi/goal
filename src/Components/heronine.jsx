@@ -63,6 +63,8 @@ const Container = styled.div`
 const Middlediv = styled.div`
     display: flex;
     margin: auto;
+   
+  
     img{
         width: 60px;
         border-radius: 50%;

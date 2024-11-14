@@ -22,8 +22,9 @@ export default Herothirteen;
 const Container = styled.div`
     display: flex;
     background-color: #EFF1FF;
-    width: 1000px;
-    margin: auto;
+    width: 1050px;
+    margin-top: 80px;
+    margin-left: 130px ;
     
     
 `

@@ -81,6 +81,8 @@ const Container = styled.div`
       margin: auto;
       min-width: 80%;
       text-align: center;
+      line-height: 60px;
+      
       
       th{
         color: #40196D;

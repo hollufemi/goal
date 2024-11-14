@@ -3,44 +3,44 @@ import styled from 'styled-components';
 const Footer = () => {
     return (  
         <Container>
-            <Firstdiv>
-                <img src={Kd} alt='kuda-small-icon'/>
-            </Firstdiv>
+            <Cover>
+                 <Firstdiv>
+                     <img src={Kd} alt='kuda-small-icon'/>
+                 </Firstdiv>
 
-            <Seconddiv>
-                <div>
-                    <a><h6>Personal</h6><br/>Discover Personal<br/>Transfer & Spend<br/>Save<br/>Investments<br/>Kuda card</a>
-                </div>
+                 <Seconddiv>
+                    <div>
+                       <a><h6>Personal</h6><br/>Discover Personal<br/>Transfer & Spend<br/>Save<br/>Investments<br/>Kuda card</a>
+                    </div>
 
-                <div>
-                    <a><h6>Business</h6><br/>Discover Business<br/>Business Registration<br/>softPOS<br/>Invoicing<br/>POS Machine<br/>Business Loan<br/>Business API<br/>Join Kuda Business</a>
+                    <div>
+                        <a><h6>Business</h6><br/>Discover Business<br/>Business Registration<br/>softPOS<br/>Invoicing<br/>POS Machine<br/>Business Loan<br/>Business API<br/>Join Kuda Business</a>
 
-                </div>
+                    </div>
 
-                <div>
-                    <a><h6>Company</h6><br/>Blog<br/>Press<br/>Join Our Team<br/>About Us</a>
-                </div>
+                    <div>
+                        <a><h6>Company</h6><br/>Blog<br/>Press<br/>Join Our Team<br/>About Us</a>
+                    </div>
 
-                <div>
-                    <a><h6>Help</h6><br/>Get Help<br/>Scam Awareness<br/>FAQs<br/>Security<br/>Contact Us<br/>Self Help</a>
+                    <div>
+                        <a><h6>Help</h6><br/>Get Help<br/>Scam Awareness<br/>FAQs<br/>Security<br/>Contact Us<br/>Self Help</a>
 
-                </div>
+                    </div>
 
-                <div>
-                    <a><h6>Transparency</h6><br/>Terms & Conditions<br/>Privacy Policy<br/>Information Security Policy<br/>Cookie Policy<br/>Whistleblowing Policy</a>
+                    <div>
+                        <a><h6>Transparency</h6><br/>Terms & Conditions<br/>Privacy Policy<br/>Information Security Policy<br/>Cookie Policy<br/>Whistleblowing Policy</a>
 
-                </div>
+                    </div>
 
-                <div>
-                    <button><small>Download on the</small><br/>App Store</button>
-                    <button><small>GET IT ON</small><br/>Google Play</button>
-                    <button>Sign in to Kuda<br/>On The Web</button>
-
-
-                </div>
+                    <div>
+                        <button><small>Download on the</small><br/>App Store</button>
+                        <button><small>GET IT ON</small><br/>Google Play</button>
+                        <button>Sign in to Kuda<br/>On The Web</button>
+                    </div>
 
 
-            </Seconddiv>
+                </Seconddiv>
+            </Cover>    
             
             <Thirddiv>
                 <div>
@@ -89,14 +89,21 @@ const Footer = () => {
 export default Footer;
 
 const Container = styled.div`
+    /* display: flex; */
     
+`
+const Cover = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 `
 const Firstdiv = styled.div`
     
 `
 const Seconddiv = styled.div`
-    display: flex;
+    /* display: flex; */
 `
 const Thirddiv = styled.div`
-    
+    display: flex;
 `
